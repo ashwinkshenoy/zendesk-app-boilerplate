@@ -14,7 +14,7 @@
 
 <br />
 
-## Table of contents
+## 📖 Table of contents
 
 - [Introduction](#introduction)
 - [Development](#development)
@@ -22,7 +22,7 @@
 
 <br />
 
-## Introduction
+## 🤘🏻 Introduction
 
 The scope of this project is a to have a ready to go app boilerplate to start building zendesk apps using:
 
@@ -35,11 +35,20 @@ The scope of this project is a to have a ready to go app boilerplate to start bu
 
 <br />
 
-## Development
+## 🖥 Development
 
 This boilerplate has been built on top of vue-cli scaffold, for easier future upgrades.
 
 ### Local setup
+
+Add a `./config.json` file in root
+Ex:
+
+```json
+{
+  "IS_PRODUCTION": false
+}
+```
 
 To initilaze local development do:
 
@@ -74,7 +83,7 @@ If you wish to use npm, do replace `yarn` with `npm` in package.json `serve` & `
 
 <br />
 
-## Settings
+## 🛠 Settings
 
 ### Assets
 
@@ -204,4 +213,7 @@ to handles the response from wherever you want in the code. (See main.js for as 
 
 **Note:** These are ment to be only suggestions and not a must have.
 
-Feel free to explore and if you like it, hit the star button ⭐️
+<br />
+
+**Feel free to explore and if you like it, hit the star button ⭐️**
+❤️
