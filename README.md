@@ -16,9 +16,9 @@
 
 ## Table of contents
 
-- [Introduction](##introduction)
-- [Development](##documentation)
-- [Settings](##settings)
+- [Introduction](#introduction)
+- [Development](#development)
+- [Settings](#settings)
 
 <br />
 
@@ -39,28 +39,36 @@ The scope of this project is a to have a ready to go app boilerplate to start bu
 
 This boilerplate has been built on top of vue-cli scaffold, for easier future upgrades.
 
-#### Local setup
+### Local setup
 
 To initilaze local development do:
 
-> yarn install
+```
+yarn install
+```
 
 To start development server do:
 
-> yarn serve
+```
+yarn serve
+```
 
 HMR (Hot Module Reload) is available for all the files.
 You need to restart the server for changes made to `manifest.js` file.
 
 To build for production do:
 
-> yarn build
+```
+yarn build
+```
 
 (all files will be available in `dist/` folder including the zip file `dist/tmp/project.zip` folder)
 
 To lint files do:
 
-> yarn lint
+```
+yarn lint
+```
 
 If you wish to use npm, do replace `yarn` with `npm` in package.json `serve` & `build` commands.
 
@@ -68,7 +76,7 @@ If you wish to use npm, do replace `yarn` with `npm` in package.json `serve` & `
 
 ## Settings
 
-#### Assets
+### Assets
 
 All the app logos/ branding should be placed inside `./assets/` folder.
 
@@ -76,7 +84,7 @@ All internal icons/ images should be placed as usual, inside `./src/assets/`
 
 <br />
 
-#### Manifest
+### Manifest
 
 The `manifest.js` file wil include all your configurations for the app.
 
@@ -92,7 +100,7 @@ Parameters can also be added depending on dev or production in `manifest.js` fil
 
 <br />
 
-#### Parameters
+### Parameters
 
 `IS_PRODUCTION`:
 
@@ -162,7 +170,7 @@ This trick will only work if you run `zat server -c config.json`
 
 <br />
 
-#### ZDClient
+### ZDClient
 
 `./src/services/ZDClient.js` file is used to add all the `methods` that make use of `ZAF`.
 
