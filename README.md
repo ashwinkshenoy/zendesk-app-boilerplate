@@ -31,7 +31,7 @@ The scope of this project is a to have a ready to go app boilerplate to start bu
 - ES6 (Babel transpiling)
 
 > **Note:**
-> Vuex can also be added following the vuex installation guidelines using `yarn`
+> Vuex can also be added following the vuex installation guidelines using `npm`
 
 <br />
 
@@ -53,13 +53,13 @@ Ex:
 To initilaze local development do:
 
 ```
-yarn install
+npm run install
 ```
 
 To start development server do:
 
 ```
-yarn serve
+npm run serve
 ```
 
 HMR (Hot Module Reload) is available for all the files.
@@ -68,7 +68,7 @@ You need to restart the server for changes made to `manifest.js` file.
 To build for production do:
 
 ```
-yarn build
+npm run build
 ```
 
 (all files will be available in `dist/` folder including the zip file `dist/tmp/project.zip` folder)
@@ -76,10 +76,10 @@ yarn build
 To lint files do:
 
 ```
-yarn lint
+npm run lint
 ```
 
-If you wish to use npm, do replace `yarn` with `npm` in package.json `serve` & `build` commands.
+If you wish to use yarn, do replace `npm` with `yarn` in package.json `serve` & `build` commands.
 
 <br />
 
@@ -98,11 +98,11 @@ All internal icons/ images should be placed as usual, inside `./src/assets/`
 The `manifest.js` file wil include all your configurations for the app.
 
 **In Dev:**
-`yarn serve` will build `manifest.json` from the manifest.js file for local dev.
+`npm run serve` will build `manifest.json` from the manifest.js file for local dev.
 The entry path will be localhost:4000.
 
 **In Prod:**
-`yarn build` will build `manifest.json` from the manifest.js file for production.
+`npm run build` will build `manifest.json` from the manifest.js file for production.
 The entry path will be the actual path. Ex: `assets/index.html`.
 
 Parameters can also be added depending on dev or production in `manifest.js` file

@@ -5,9 +5,9 @@
   "scripts": {
     "manifest": "node build.js",
     "serve:zat": "zat server -c .config.json",
-    "serve": "yarn manifest dev & vue-cli-service serve --port=4000 & yarn serve:zat",
+    "serve": "npm run manifest dev & vue-cli-service serve --port=4000 & npm run serve:zat",
     "build:zat": "zat package --path=./dist",
-    "build": "vue-cli-service build && yarn manifest prod && yarn build:zat",
+    "build": "vue-cli-service build && npm run manifest prod && npm run build:zat",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
