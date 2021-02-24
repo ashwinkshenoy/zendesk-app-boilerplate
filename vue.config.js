@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+  publicPath: '',
   outputDir: 'dist/assets',
   chainWebpack: config => {
     config.plugin('copy').tap(args => {
