@@ -62,7 +62,7 @@ const ZDClient = {
    * @param {String} getter
    */
   async get(getter) {
-    return await CLIENT.get(getter);
+    return (await CLIENT.get(getter))[getter];
   },
 
   /**

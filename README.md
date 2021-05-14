@@ -4,13 +4,8 @@
 ![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)
 ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
 ![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)
-![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)
-![a](https://forthebadge.com/images/badges/uses-css.svg)
-![a](https://forthebadge.com/images/badges/uses-html.svg)
-![a](https://forthebadge.com/images/badges/uses-js.svg)
 ![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)
 ![forthebadge](https://forthebadge.com/images/badges/kinda-sfw.svg)
-![a](https://forthebadge.com/images/badges/makes-people-smile.svg)
 
 <br />
 
@@ -54,12 +49,16 @@ To initilaze local development do:
 
 ```
 npm run install
+// or
+yarn install
 ```
 
 To start development server do:
 
 ```
 npm run serve
+// or
+yarn serve
 ```
 
 HMR (Hot Module Reload) is available for all the files.
@@ -69,6 +68,8 @@ To build for production do:
 
 ```
 npm run build
+// or
+yarn build
 ```
 
 (all files will be available in `dist/` folder including the zip file `dist/tmp/project.zip` folder)
@@ -77,6 +78,8 @@ To lint files do:
 
 ```
 npm run lint
+// or
+yarn lint
 ```
 
 If you wish to use yarn, do replace `npm` with `yarn` in package.json `serve` & `build` commands.

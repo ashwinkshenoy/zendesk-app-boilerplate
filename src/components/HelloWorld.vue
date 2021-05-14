@@ -25,8 +25,7 @@
     methods: {
       async init() {
         let emailKey = 'ticket.requester.email';
-        const getChatEmail = await ZDClient.get(emailKey);
-        this.email = getChatEmail[emailKey];
+        this.email = await ZDClient.get(emailKey);
       }
     }
   };
