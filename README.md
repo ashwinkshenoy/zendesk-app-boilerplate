@@ -49,16 +49,12 @@ To initilaze local development do:
 
 ```
 npm run install
-// or
-yarn install
 ```
 
 To start development server do:
 
 ```
 npm run serve
-// or
-yarn serve
 ```
 
 HMR (Hot Module Reload) is available for all the files.
@@ -68,8 +64,6 @@ To build for production do:
 
 ```
 npm run build
-// or
-yarn build
 ```
 
 (all files will be available in `dist/` folder including the zip file `dist/tmp/project.zip` folder)
@@ -78,8 +72,6 @@ To lint files do:
 
 ```
 npm run lint
-// or
-yarn lint
 ```
 
 If you wish to use yarn, do replace `npm` with `yarn` in package.json `serve` & `build` commands.
