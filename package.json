@@ -1,0 +1,21 @@
+{
+  "name": "zendesk-app-boilerplate",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "manifest": "node build.js",
+    "serve:zat": "zat server -c .config.json",
+    "serve": "npm run manifest dev & vite & npm run serve:zat",
+    "build:zat": "zat package --path=./dist",
+    "build": "vite build && npm run manifest prod && npm run build:zat"
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "zendesk_app_framework_sdk": "^2.0.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.4",
+    "vite": "^4.4.9",
+    "vite-plugin-static-copy": "^0.17.0"
+  }
+}

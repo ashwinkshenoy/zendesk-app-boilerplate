@@ -1,0 +1,8 @@
+{
+  "app": {
+    "name": "Zendesk Custom App",
+    "short_description": "Zendesk Custom App",
+    "long_description": "Zendesk Custom App",
+    "installation_instructions": "Simply click install."
+  }
+}
