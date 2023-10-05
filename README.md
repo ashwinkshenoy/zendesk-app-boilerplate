@@ -71,7 +71,7 @@ All internal icons/ images should be placed as usual, inside `./src/assets/`
 
 #### 📄 Manifest
 
-The `manifest.js` file wil include all your configurations for the app.
+The `manifest.js` file will include all your configurations for the app.
 
 **In Dev:**
 
