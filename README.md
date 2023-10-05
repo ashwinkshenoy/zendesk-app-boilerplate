@@ -38,6 +38,8 @@ The scope of this project is a to have a ready to go app boilerplate to start bu
 
 Config settings to run app locally.
 
+Create a `.config.json` file in the root folder.
+
 ```json
 {
   "IS_PRODUCTION": false
@@ -59,13 +61,13 @@ npm run serve
 HMR (Hot Module Reload) is available for all the files.
 You need to restart the server for changes made to `manifest.js` file.
 
-#### Assets
+#### 🗂️ Assets
 
 All the app logos/ branding should be placed inside `./assets/` folder.
 
 All internal icons/ images should be placed as usual, inside `./src/assets/`
 
-#### Manifest
+#### 📄 Manifest
 
 The `manifest.js` file wil include all your configurations for the app.
 
