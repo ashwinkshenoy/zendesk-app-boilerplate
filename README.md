@@ -48,7 +48,7 @@ Create a `.config.json` file in the root folder.
 }
 ```
 
-To initilaze local development do:
+To initialize local development do:
 
 ```
 npm run install
