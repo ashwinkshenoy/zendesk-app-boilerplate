@@ -23,12 +23,14 @@
 
 The scope of this project is a to have a ready to go app boilerplate to start building zendesk apps using:
 
-- VueJS 3<br>
+- Vue 3
+
+<br>
 
 > **Note:**
-> Vuex/Pinia can also be added respective installation guidelines using `npm`
-
-> For Vue 2, Check this [Template](https://github.com/ashwinkshenoy/zendesk-app-boilerplate/tree/vue2))
+>
+> - Vuex/Pinia can also be added respective installation guidelines using `npm`<br>
+> - For Vue 2, Check this [Template](https://github.com/ashwinkshenoy/zendesk-app-boilerplate/tree/vue2))
 
 <br />
 
@@ -95,7 +97,7 @@ Parameters can also be added depending on dev or production in `manifest.js` fil
 
 <br />
 
-### Parameters
+### ⚙️ Parameters
 
 `IS_PRODUCTION`:
 
