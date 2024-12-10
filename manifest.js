@@ -26,4 +26,5 @@ const manifestData = {
   ],
 };
 
-module.exports = manifestData;
+// module.exports = manifestData;
+export default manifestData;

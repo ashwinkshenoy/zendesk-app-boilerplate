@@ -2,18 +2,20 @@
 // To Build Manifest File (based on ENV from cli command)
 // **********
 
-const manifestData = require('./manifest.js');
+import manifestData from './manifest.js';
+import fs from 'fs';
 
 const manifest = JSON.stringify(manifestData, null, 2);
-var fs = require('fs');
 let outputPath = 'manifest.json';
 
-process.argv.forEach(function (val) {
+process.argv.forEach((val) => {
   if (val === 'prod') {
     outputPath = 'dist/manifest.json';
   }
 });
 
-fs.writeFile(outputPath, manifest, 'utf-8', function (err) {
-  if (err) console.log('error', err);
+fs.writeFile(outputPath, manifest, 'utf-8', (err) => {
+  if (err) {
+    console.error('Error:', err);
+  }
 });

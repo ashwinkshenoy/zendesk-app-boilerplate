@@ -30,3 +30,5 @@ coverage
 # Zen
 manifest.json
 .config.json
+tmp
+.zat

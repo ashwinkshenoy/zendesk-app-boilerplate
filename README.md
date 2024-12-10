@@ -57,7 +57,7 @@ npm run install
 To start development server do:
 
 ```
-npm run serve
+npm run dev
 ```
 
 HMR (Hot Module Reload) is available for all the files.
@@ -75,7 +75,7 @@ The `manifest.js` file will include all your configurations for the app.
 
 **In Dev:**
 
-- `npm run serve` will build `manifest.json` from the manifest.js file for local dev.
+- `npm run dev` will build `manifest.json` from the manifest.js file for local dev.
   The entry path will be localhost:4000.
 
 **In Prod:**
